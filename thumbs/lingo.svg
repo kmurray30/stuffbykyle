@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Lingo's blob character speaking French with captions">
+  <rect width="800" height="500" fill="#f6f2ef"/>
+  <circle cx="400" cy="200" r="150" fill="#ece7e4"/>
+  <path d="M400 92 C470 90 512 140 516 200 C520 268 470 312 404 314 C330 316 284 270 286 200 C288 136 338 94 400 92 Z" fill="#e5484d"/>
+  <ellipse cx="366" cy="190" rx="12" ry="20" fill="#fff"/>
+  <ellipse cx="434" cy="190" rx="12" ry="20" fill="#fff"/>
+  <path d="M372 246 Q400 266 428 246" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <g fill="#e5484d" opacity=".5">
+    <circle cx="210" cy="140" r="9"/><circle cx="586" cy="118" r="7"/><circle cx="604" cy="270" r="11"/><circle cx="190" cy="282" r="6"/>
+  </g>
+  <text x="400" y="384" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700" font-size="34" fill="#1c1c1c">Bonjour ! On va au marché ?</text>
+  <text x="400" y="424" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#9a918c">Hello! Shall we go to the market?</text>
+  <rect x="340" y="446" width="120" height="8" rx="4" fill="#d8d8d8"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A paper-cutout world with a house, a tree and a dog on a flat green meadow">
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#86c5ff"/><stop offset="1" stop-color="#d9efff"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <path d="M0 300 L800 300 L800 500 L0 500 Z" fill="#9ed37a"/>
+  <path d="M0 300 L800 300 L800 312 L0 312 Z" fill="#86c066"/>
+  <g stroke="#fff" stroke-width="7" stroke-linejoin="round">
+    <path d="M130 300 L130 200 L200 150 L270 200 L270 300 Z" fill="#fff1d6"/>
+    <path d="M115 206 L200 140 L285 206 Z" fill="#ff9f43"/>
+    <rect x="182" y="240" width="36" height="60" fill="#b5713a"/>
+    <rect x="535" y="210" width="26" height="100" fill="#a26a3c"/>
+    <circle cx="548" cy="180" r="60" fill="#5fb85a"/>
+    <circle cx="510" cy="215" r="36" fill="#5fb85a"/>
+    <circle cx="588" cy="212" r="38" fill="#5fb85a"/>
+    <path d="M340 368 Q345 336 380 338 L430 338 Q446 320 462 336 Q470 352 456 360 L456 390 L444 390 L444 372 L382 372 L382 390 L370 390 L370 372 Q352 376 340 368 Z" fill="#c98b52"/>
+    <circle cx="451" cy="344" r="3.5" fill="#2b2b2b" stroke="none"/>
+  </g>
+  <g fill="#fff" opacity=".9"><ellipse cx="640" cy="80" rx="60" ry="22"/><ellipse cx="600" cy="92" rx="40" ry="18"/><ellipse cx="160" cy="70" rx="50" ry="18"/></g>
+  <rect x="150" y="420" width="500" height="50" rx="25" fill="#fffdf7" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="180" y="453" font-family="'Trebuchet MS', system-ui, sans-serif" font-size="22" fill="#2b2b2b">a dog walks up to me<tspan fill="#ff9f43">|</tspan></text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A robot face made of glowing bars on a dark background">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#14202b"/><stop offset="1" stop-color="#07070b"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <g filter="url(#glow)">
+    <rect x="215" y="170" width="40" height="130" rx="20" fill="#5ad4ff"/>
+    <rect x="335" y="200" width="34" height="100" rx="17" fill="#5ad4ff"/>
+    <rect x="383" y="200" width="34" height="100" rx="17" fill="#ff3b30"/>
+    <rect x="431" y="200" width="34" height="100" rx="17" fill="#5ad4ff"/>
+    <rect x="545" y="170" width="40" height="130" rx="20" fill="#5ad4ff"/>
+  </g>
+  <circle cx="400" cy="360" r="9" fill="#fff4e8"/>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="20" fill="#5ad4ff" opacity=".55">
+    <text x="60" y="440">you: hey, how's it going?</text>
+    <text x="60" y="468" fill="#ff8a80">it: ...do we have to do this?</text>
+  </g>
+</svg>

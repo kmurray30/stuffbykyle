@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stuff by Kyle</title>
+  <meta name="description" content="Things Kyle Murray has built: talking companions, language tutors, generated worlds and other experiments.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --card: #ffffff;
+      --ink: #1d1b18;
+      --muted: #6b655c;
+      --line: #e6e0d4;
+      --accent: #ff5a36;
+      --tag: #f1ece2;
+      --shadow: 0 1px 2px rgba(30, 25, 15, .06), 0 8px 24px rgba(30, 25, 15, .06);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131210;
+        --card: #1c1a17;
+        --ink: #f2eee7;
+        --muted: #a29b90;
+        --line: #2e2b26;
+        --accent: #ff7a5c;
+        --tag: #2a2722;
+        --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.55 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+    header { padding: 72px 0 40px; }
+    h1 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 800;
+      font-size: clamp(40px, 7vw, 72px);
+      line-height: 1;
+      letter-spacing: -.02em;
+      margin: 0 0 16px;
+    }
+    h1 span { color: var(--accent); }
+    .lede { font-size: 19px; color: var(--muted); max-width: 40ch; margin: 0; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+      gap: 24px;
+      padding-bottom: 64px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      color: inherit;
+      text-decoration: none;
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow), 0 16px 40px rgba(30, 25, 15, .1); }
+    a.card:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .thumb { aspect-ratio: 8 / 5; display: block; width: 100%; height: auto; border-bottom: 1px solid var(--line); }
+    .body { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    h2 { font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: 24px; margin: 0; letter-spacing: -.01em; }
+    .body p { margin: 0; color: var(--muted); }
+    .meta { margin-top: auto; padding-top: 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 14px; }
+    .url { color: var(--accent); font-weight: 600; overflow-wrap: anywhere; }
+    .tag { background: var(--tag); color: var(--muted); border-radius: 999px; padding: 2px 10px; font-size: 13px; font-weight: 500; }
+    .soon .thumb { filter: saturate(.7); }
+    footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
+    footer a { color: inherit; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Stuff by Kyle<span>.</span></h1>
+      <p class="lede">Things I've built: talking companions, a language tutor, generated worlds and a few experiments.</p>
+    </header>
+
+    <main class="grid">
+      <a class="card" href="https://unfriendly.ai">
+        <img class="thumb" src="thumbs/unfriendly.svg" alt="" width="800" height="500">
+        <div class="body">
+          <h2>unfriendly.ai</h2>
+          <p>A voice companion that doesn't want to talk to you, and means it. It judges what you say while you're still saying it, cuts you off, needles you when you go quiet, and closes the app when you bore it.</p>
+          <div class="meta"><span class="url">unfriendly.ai →</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="https://imright.com">
+        <img class="thumb" src="thumbs/imright.svg" alt="" width="800" height="500">
+        <div class="body">
+          <h2>imright.com</h2>
+          <p>State any belief and get a tabloid exposé proving it, sourced and cited. It does on purpose what we all do by accident: it only looks for evidence on one side.</p>
+          <div class="meta"><span class="url">imright.com →</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="https://web-production-dbbff2.up.railway.app">
+        <img class="thumb" src="thumbs/lingo.svg" alt="" width="800" height="500">
+        <div class="body">
+          <h2>Lingo</h2>
+          <p>A voice-first French tutor. Tap Start and talk: role-play a story campaign where Lingo plays every character, or drop into one-off encounters with a baker, a dog or a pigeon with opinions.</p>
+          <div class="meta"><span class="url">Open Lingo →</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="https://web-production-c924.up.railway.app">
+        <img class="thumb" src="thumbs/paperworld.svg" alt="" width="800" height="500">
+        <div class="body">
+          <h2>Paper World</h2>
+          <p>Speak something into existence. Type "a dog walks up to me" or "the house catches fire" and an LLM turns it into a scene of paper-cutout sprites in a little 3D world you can walk around.</p>
+          <div class="meta"><span class="url">Open Paper World →</span><span class="tag">passcode</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="https://scrollege-production.up.railway.app">
+        <img class="thumb" src="thumbs/scrollege.svg" alt="" width="800" height="500">
+        <div class="body">
+          <h2>scrollege</h2>
+          <p>Educational brainrot. An endless TikTok-style feed of fun facts, written and narrated on the fly over Minecraft parkour and Subway Surfers footage, with pop-up captions.</p>
+          <div class="meta"><span class="url">Open scrollege →</span><span class="tag">password</span></div>
+        </div>
+      </a>
+
+      <a class="card" href="https://thread-ui-production.up.railway.app">
+        <img class="thumb" src="thumbs/reddit.svg" alt="" width="800" height="500">
+        <div class="body">
+          <h2>Reddit Thesis Scanner</h2>
+          <p>Looks for long-horizon stock theses in two decades of Reddit threads. It grades how good each argument is (not how bullish) and checks those grades against five-year returns.</p>
+          <div class="meta"><span class="url">Open the thread browser →</span><span class="tag">password</span></div>
+        </div>
+      </a>
+
+      <div class="card soon">
+        <img class="thumb" src="thumbs/soulful.svg" alt="" width="800" height="500">
+        <div class="body">
+          <h2>soulful</h2>
+          <p>Characters with a soul instead of a prompt: what they want, fear and believe, grown from their own backstory and changed by every conversation.</p>
+          <div class="meta"><span class="tag">coming soon</span></div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div class="wrap">Kyle Murray · <a href="https://github.com/kmurray30">github.com/kmurray30</a></div>
+  </footer>
+</body>
+</html>
