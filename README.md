@@ -8,4 +8,4 @@ Preview locally with any static server, e.g. `python3 -m http.server` and open h
 On Railway, Railpack sees `index.html` at the root and serves the folder as a static site.
 
 To add a project, copy one of the `<a class="card">` blocks in `index.html` and drop an 800×500
-thumbnail (SVG, PNG or JPG) into `thumbs/`.
+thumbnail (SVG, PNG or JPG; real screenshots for the open sites, drawings for the password-gated ones) into `thumbs/`.
